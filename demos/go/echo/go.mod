@@ -1,13 +1,21 @@
 module go-echo
 
-go 1.15
+go 1.25.0
 
 require (
 	github.com/LoginRadius/go-sdk v0.0.0-20190613234105-3e489fe94bc8
 	github.com/joho/godotenv v1.3.0
-	github.com/labstack/echo/v4 v4.1.17
-	github.com/mattn/go-colorable v0.1.8 // indirect
-	golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897 // indirect
-	golang.org/x/net v0.0.0-20201024042810-be3efd7ff127 // indirect
-	golang.org/x/sys v0.0.0-20201024232916-9f70ab9862d5 // indirect
+	github.com/labstack/echo/v4 v4.15.3
+)
+
+require (
+	github.com/labstack/gommon v0.5.0 // indirect
+	github.com/mattn/go-colorable v0.1.14 // indirect
+	github.com/mattn/go-isatty v0.0.22 // indirect
+	github.com/valyala/bytebufferpool v1.0.0 // indirect
+	github.com/valyala/fasttemplate v1.2.2 // indirect
+	golang.org/x/crypto v0.50.0 // indirect
+	golang.org/x/net v0.53.0 // indirect
+	golang.org/x/sys v0.43.0 // indirect
+	golang.org/x/text v0.36.0 // indirect
 )
