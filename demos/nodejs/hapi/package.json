@@ -16,7 +16,7 @@
   "author": "LoginRadius",
   "dependencies": {
     "@hapi/hapi": "^20.0.1",
-    "@hapi/inert": "^6.0.3",
+    "@hapi/inert": "^7.1.2",
     "loginradius-sdk": "^11.0.0"
   }
 }
